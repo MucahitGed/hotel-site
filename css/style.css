@@ -147,7 +147,7 @@ img {
 }
 
 .icons i {
-    background-color: var(--primary);
+    background-color: var(--warning);
     color: #fff;
     padding: 1rem;
     border-radius: 50%;
@@ -260,7 +260,9 @@ img {
 .footer .social a {
     margin-right: 10px;
 }
-
+.social i {
+    color: #333;
+}
 /* mobile */
 @media(max-width: 768px) {
     html {
